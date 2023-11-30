@@ -1,6 +1,7 @@
 {
   "name": "sim_management",
   "private": true,
+  "homepage": "https://Tonydang223.github.io/sim_management/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
