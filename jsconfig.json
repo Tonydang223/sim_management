@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "allowJs": true,
+        "module": "commonjs",
+        "target": "esnext", 
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "jsx": "react-jsx",
+        "strict": true,
+        "paths": {
+            "@assets/*": ["./assets/*"],
+            "@components/*": ["./components/*"],
+            "@pages/*": ["./pages/*"],
+            "@utils/*": ["./utils/*"],
+            "@layouts/*": ["./layouts/*"],
+            "@redux/*": ["./redux/*"],
+        }, 
+    },
+    "include": ["src/**/*.js", "src/**/*.jsx"],
+    "exclude": ["node_modules", "dist"],
+}
